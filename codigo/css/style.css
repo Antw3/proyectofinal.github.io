@@ -1,0 +1,158 @@
+@charset "UTF-8";
+
+.header{
+	height: 100px;
+	padding-top: 0px;
+	color: white;
+}
+/*menu principal*/
+.container{
+	display: grid;
+	margin-top: 150px;
+	
+	height: 500px;	
+	color: #3D3D09;
+	text-align: left;
+	font-size: 30px;
+	margin-bottom: 100px;
+}
+
+.g div{
+	background: #515151;
+	height: minmax (100px, 700px);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-image: fixed;
+	color: white;
+	
+}
+
+#uno {
+	background-image: url("../images/islasplasticos_Mesa de trabajo 1.jpg");
+	
+}
+
+#dos{
+	background-image: url("../images/sirena_Mesa de trabajo 1.jpg");
+	background-position: right 0px;
+
+}
+
+#tres{
+	background-image: url("../images/after.png");
+}
+#cuatro{
+	background-image: url("../images/escenario1.jpg");
+}
+
+/*info islas*/
+.containerislas{
+	margin-left: 1%;
+	margin-right: 1%;
+	margin-top: 100px;
+	margin-bottom: 100px;
+	font-size: 15px;
+	height: 500px,
+}
+.islas div{
+	background-image: cover;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background: #F18200;
+	color: black;
+	height: minmax(300px, 425px);
+}
+.i1{
+	margin-bottom: 10px;
+	background: #F18200;
+
+}
+
+.i2 {
+	background: #F18200;
+}
+
+#imgisla{
+	background-image: url("../images/basura.jpg");
+	background-position: left;
+}
+
+#imgisla1 {
+	background-image: url("../images/microplastico.jpg");
+	background-position: center;
+}
+
+#imgisla2 {
+	background-image: url("../images/info1.jpg");
+	background-position: center;
+}
+
+/*historia perosnajes*/
+.containerpersonajes {
+	margin-top: 100px;
+	margin-bottom: 50px;
+	
+}
+
+.personas div{
+	background-color: #80A71C;
+	height: 350px;
+		background-repeat: no-repeat;
+	background-size: cover;
+	color: black;
+}
+
+#sirena {
+	background-image: url("../images/sirena_Mesa de trabajo 1.jpg");
+	background-position: 0px 0px;
+}
+
+#connor{ 
+	background-image: url("../images/connor_Mesa de trabajo 1.jpg");
+	background-position: 0px 0px;
+}
+/*proceso de animacion*/
+
+.proceso {
+	margin-top: 50px;
+	margin-bottom: 0px;
+	color: white;
+	padding-bottom: 200px;
+	
+}
+.pros div{
+	/*background: #5A5A5A;*/
+
+	height: minmax(300px, 500px);
+}
+#proimg{
+	margin-bottom: 0px;
+}
+#proimg2{
+	margin-bottom: 100px;
+	
+	padding-bottom: 10px;
+}
+
+/*video*/
+
+.vid {
+	padding-top: 600px;
+	padding-bottom: 100PX;
+}
+
+.vid div{
+	
+}
+
+nav{
+	background: #000000;
+}
+
+a{
+	color: white;
+}
+
+.navbar-toggler-icon{
+	color: white; !important;
+}
